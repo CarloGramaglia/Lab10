@@ -28,6 +28,10 @@ public class Flow {
 	public void setFlow(double flow) {
 		this.flow = flow;
 	}
+	
+	public River getRiver() {
+		return river;
+	}
 
 	@Override
 	public String toString() {
